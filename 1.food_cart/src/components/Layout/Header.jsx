@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import "./Header.css";
-import asia from "../../assets/asia.jpg";
+import { images } from "../../constants";
 import HeaderCartButton from "./HeaderCartButton";
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
         <HeaderCartButton />
       </header>
       <div className="main-image">
-        <img src={asia} alt="main image example"></img>
+        <img src={images.asia} alt="main image example"></img>
       </div>
     </Fragment>
   );
