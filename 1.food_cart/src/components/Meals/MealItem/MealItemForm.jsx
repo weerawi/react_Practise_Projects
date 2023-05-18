@@ -9,10 +9,10 @@ const MealItemForm = () => {
         input={{
           id: "amount_",
           type: "number",
-          min: "1",
+          min: "0",
           max: "5",
           step: "1",
-          defaultValue: "1",
+          defaultValue: "0",
         }}
       />
       <button>Add</button>
