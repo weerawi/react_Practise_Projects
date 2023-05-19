@@ -16,7 +16,7 @@ function App() {
   return (
     <Fragment>
       {/* <h2>Let's get started!</h2> */}
-      {cartIsShown && <Cart />}
+      {cartIsShown && <Cart onHideCart={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
